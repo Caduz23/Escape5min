@@ -1,0 +1,12 @@
+Objetivo - Programar o jogo em web 5minutegame - Escape in five
+
+Primeira tela:
+    Seleção de classe:
+        Guerreiro:
+        Mago:
+        Arqueiro:
+
+Segunda tela:
+    Mensagem com o objetivo
+    Mapa gerado aleatoriamente:
+    Contador de 5 minutos na direita da tela

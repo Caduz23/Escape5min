@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Ancient_Modern_Tales';
+    src: url('../fontes_de_texto/ancient-modern-tales-font/AncientModernTales-a7Po.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: rgb(94, 35, 35);
+
+}
+
+.container{
+    background-color: brown;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    max-width: 1024px;
+    max-height: 720px;
+}
+
+.htp {
+    font-family: 'Ancient_Modern_Tales';
+}
+
+.htp h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 100px;
+}
+
+.htp p{
+    padding: 10px;
+    font-size: 48px;
+}
+.button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button_back{
+    font-family: 'Ancient_Modern_Tales';
+    font-size: 36px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding: 8px;
+}

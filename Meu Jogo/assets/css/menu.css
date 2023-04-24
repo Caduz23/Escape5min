@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Ancient_Modern_Tales';
+    src: url('../fontes_de_texto/ancient-modern-tales-font/AncientModernTales-a7Po.ttf') format('truetype');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    background-color: brown;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: brown;
+    position: absolute;
+    top: 0; bottom: 0;
+    left: 0; right: 0;
+    margin: auto;
+    max-width: 1024px;
+    max-height: 720px;
+}
+
+.container{
+    margin: auto;
+    background-position: center;
+    background-image: url('../images/menu.png');
+    background-repeat: no-repeat;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    max-height: 1024px;
+    max-width: 1024px;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Ancient_Modern_Tales';
+    font-size: 36px;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+}
+    .titulo {
+        text-shadow: 2px 2px 2px black,-2px -2px 2px black;
+    }
+
+.nav{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.links_nav_list{
+    border: 3px solid white;
+    border-radius: 16px;
+    font-family: 'Ancient_Modern_Tales';
+    color: white;
+    font-size: 36px;
+    display: block;
+    width: 140px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
